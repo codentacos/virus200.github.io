@@ -37,6 +37,7 @@ main {
 -------------------- */
 
 header {
+  /* background: #262626; */
   box-shadow: 0 0 2px;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -94,6 +95,10 @@ main li {
   width: 30px;
 }
 
+.social-container img:hover {
+  filter: invert(100%);
+}
+
 .main-wrapper {
   background: #bccdd5;
   border-radius: 5px;
@@ -128,6 +133,7 @@ footer {
 @media (min-width:400px) {
 
   .brain-logo {
+    /* filter: invert(100%); */
     width: 50px;
     visibility: visible;
   }
