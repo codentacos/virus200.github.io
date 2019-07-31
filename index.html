@@ -9,16 +9,20 @@
   </head>
   <body>
       <header>
-        <div class="header-container">
-            <div class="nav-container">
-              <ul>
-                <li><img src="img/brain-logo.svg" class="brain-logo"/></li>
-                <li>Work</li>
-                <li>Skills</li>
-                <li>About</li>
-              </ul>
-            </div> <!--End nav-container-->
-          </div> <!--End header-container-->
+
+        <nav class="nav-container">
+          <div class='nav-split'>
+          <div class='logo-menu'>
+            <img src="img/brain-logo.svg" class="brain-logo"/>
+            <img class='menu-toggle' id='navbar-toggle-js' src='icons/menu-icon.svg' />
+          </div>
+          <ul class='navbar' id='navbar-js'>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        </nav> <!--End nav-container-->
       </header>
 
       <main>
@@ -28,10 +32,10 @@
             <h2 class="heading">I build stuff.</h2>
               <h2>Contact</h2>
               <ul>
-              <li><a href="https://twitter.com/codeNtacos"><img src="icons/twitter-icon.svg"  alt="Twitter logo"/></a></li>
-              <li><a href="https://github.com/virus200"><img class="color-correct" src="icons/github-icon.svg"  alt="Github logo"/></a></li>
-              <li><a href="https://www.linkedin.com/in/zachary-nelson-946011ba/"><img src="icons/linkedin-icon.svg" /></a></li>
-              <li><a href="mailto: nelsonz2013@hotmail.com"><img src="icons/email-icon.svg" alt="Email logo"/></a></li>
+              <li><a href="https://twitter.com/codeNtacos"><img src="icons/twitter-icon2.svg"  alt="Twitter logo"/></a></li>
+              <li><a href="https://github.com/virus200"><img class="color-correct" src="icons/github-icon2.svg"  alt="Github logo"/></a></li>
+              <li><a href="https://www.linkedin.com/in/zachary-nelson-946011ba/"><img src="icons/linkedin-icon2.svg" /></a></li>
+              <li><a href="mailto: nelsonz2013@hotmail.com"><img src="icons/email-icon2.svg" alt="Email logo"/></a></li>
             </ul>
           </div> <!--End social-container-->
 
@@ -53,5 +57,6 @@
         </div> <!--End main-wrapper-->
       </main>
     <footer><span>Created by Zachary Nelson</span></footer>
+    <script src='script.js'></script>
   </body>
 </html>
